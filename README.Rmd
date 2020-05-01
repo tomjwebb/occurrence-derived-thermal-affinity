@@ -10,25 +10,22 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
-# exp v obs paper
+Data and Code to support Webb et al., _Occupancy-derived thermal affinities reflect known physiological thermal limits of marine species_, accepted for publication in Ecology and Evolution.
 
-<!-- badges: start -->
-<!-- badges: end -->
+The code below was developed using R version 3.5.2 (2018-12-20), Platform: x86_64-apple-darwin15.6.0 (64-bit), Running under: macOS Mojave 10.14.4. In addition, the following packages need to be loaded:
 
-The goal of exp v obs paper is to ...
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
+```{r, message = FALSE}
+library(tidyverse) #v1.2.1
+library(worrms) #v0.3.2 
+library(rfishbase) #v3.0.4
+library(robis) #v2.1.10
+library(lubridate) #v1.7.4
+library(raster) #v2.9-5
+library(sdmpredictors) #v0.2.8
+library(naniar) #v0.4.2
+library(ncdf4) #v1.16
+library(ggcorrplot) #v0.1.1
+library(cowplot) #v0.9.4
+library(viridis) #v0.5.1
+library(maps) #v3.3.0
 ```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
