@@ -3,7 +3,7 @@
 
 Data and Code to support Webb et al., *Occupancy-derived thermal
 affinities reflect known physiological thermal limits of marine
-species*, accepted for publication in Ecology and Evolution.
+species*, Ecology and Evolution, https://doi.org/10.1002/ece3.6407.
 
 The code below was developed using R version 3.5.2 (2018-12-20),
 Platform: x86\_64-apple-darwin15.6.0 (64-bit), Running under: macOS
